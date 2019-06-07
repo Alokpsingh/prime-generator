@@ -1,0 +1,19 @@
+{
+    "name": "apsingh/prime-generator",
+    "description": "A prime number multiplication table generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alok P. Singh",
+            "email": "alok.submit@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "APSingh\\PrimeGenerator\\" : "src/",
+            "APSingh\\PrimeGenerator\\Util\\" : "util/",
+            "APSingh\\PrimeGenerator\\Tests\\" : "tests/"
+        }
+    }
+}
